@@ -15,6 +15,8 @@
 		78D9A2F31BC4E089009F814D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78D9A2F11BC4E089009F814D /* LaunchScreen.storyboard */; };
 		78D9A2FE1BC4E089009F814D /* _____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 78D9A2FD1BC4E089009F814D /* _____Tests.m */; };
 		78D9A3091BC4E089009F814D /* _____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 78D9A3081BC4E089009F814D /* _____UITests.m */; };
+		78F8BEC51BD9E8AD00560196 /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F8BEC41BD9E8AD00560196 /* KeyboardViewController.swift */; };
+		78F8BEC91BD9E8AD00560196 /* 胖仔代购.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 78F8BEC21BD9E8AD00560196 /* 胖仔代购.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,7 +34,28 @@
 			remoteGlobalIDString = 78D9A2DF1BC4E089009F814D;
 			remoteInfo = "代购计算器";
 		};
+		78F8BEC71BD9E8AD00560196 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 78D9A2D81BC4E089009F814D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 78F8BEC11BD9E8AD00560196;
+			remoteInfo = "胖仔代购";
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		78F8BECD1BD9E8AD00560196 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				78F8BEC91BD9E8AD00560196 /* 胖仔代购.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		78D9A2E01BC4E089009F814D /* 代购计算器.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "代购计算器.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -51,6 +74,9 @@
 		78D9A3041BC4E089009F814D /* 代购计算器UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "代购计算器UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		78D9A3081BC4E089009F814D /* _____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____UITests.m"; sourceTree = "<group>"; };
 		78D9A30A1BC4E089009F814D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78F8BEC21BD9E8AD00560196 /* 胖仔代购.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "胖仔代购.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		78F8BEC41BD9E8AD00560196 /* KeyboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardViewController.swift; sourceTree = "<group>"; };
+		78F8BEC61BD9E8AD00560196 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +101,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		78F8BEBF1BD9E8AD00560196 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -84,6 +117,7 @@
 				78D9A2E21BC4E089009F814D /* 代购计算器 */,
 				78D9A2FC1BC4E089009F814D /* 代购计算器Tests */,
 				78D9A3071BC4E089009F814D /* 代购计算器UITests */,
+				78F8BEC31BD9E8AD00560196 /* 胖仔代购 */,
 				78D9A2E11BC4E089009F814D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -94,6 +128,7 @@
 				78D9A2E01BC4E089009F814D /* 代购计算器.app */,
 				78D9A2F91BC4E089009F814D /* 代购计算器Tests.xctest */,
 				78D9A3041BC4E089009F814D /* 代购计算器UITests.xctest */,
+				78F8BEC21BD9E8AD00560196 /* 胖仔代购.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -140,6 +175,15 @@
 			path = "代购计算器UITests";
 			sourceTree = "<group>";
 		};
+		78F8BEC31BD9E8AD00560196 /* 胖仔代购 */ = {
+			isa = PBXGroup;
+			children = (
+				78F8BEC41BD9E8AD00560196 /* KeyboardViewController.swift */,
+				78F8BEC61BD9E8AD00560196 /* Info.plist */,
+			);
+			path = "胖仔代购";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -150,10 +194,12 @@
 				78D9A2DC1BC4E089009F814D /* Sources */,
 				78D9A2DD1BC4E089009F814D /* Frameworks */,
 				78D9A2DE1BC4E089009F814D /* Resources */,
+				78F8BECD1BD9E8AD00560196 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				78F8BEC81BD9E8AD00560196 /* PBXTargetDependency */,
 			);
 			name = "代购计算器";
 			productName = "代购计算器";
@@ -196,6 +242,23 @@
 			productReference = 78D9A3041BC4E089009F814D /* 代购计算器UITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		78F8BEC11BD9E8AD00560196 /* 胖仔代购 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78F8BECC1BD9E8AD00560196 /* Build configuration list for PBXNativeTarget "胖仔代购" */;
+			buildPhases = (
+				78F8BEBE1BD9E8AD00560196 /* Sources */,
+				78F8BEBF1BD9E8AD00560196 /* Frameworks */,
+				78F8BEC01BD9E8AD00560196 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "胖仔代购";
+			productName = "胖仔代购";
+			productReference = 78F8BEC21BD9E8AD00560196 /* 胖仔代购.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -207,6 +270,7 @@
 				TargetAttributes = {
 					78D9A2DF1BC4E089009F814D = {
 						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = 484S85QG3D;
 					};
 					78D9A2F81BC4E089009F814D = {
 						CreatedOnToolsVersion = 7.0.1;
@@ -215,6 +279,10 @@
 					78D9A3031BC4E089009F814D = {
 						CreatedOnToolsVersion = 7.0.1;
 						TestTargetID = 78D9A2DF1BC4E089009F814D;
+					};
+					78F8BEC11BD9E8AD00560196 = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = 484S85QG3D;
 					};
 				};
 			};
@@ -234,6 +302,7 @@
 				78D9A2DF1BC4E089009F814D /* 代购计算器 */,
 				78D9A2F81BC4E089009F814D /* 代购计算器Tests */,
 				78D9A3031BC4E089009F814D /* 代购计算器UITests */,
+				78F8BEC11BD9E8AD00560196 /* 胖仔代购 */,
 			);
 		};
 /* End PBXProject section */
@@ -257,6 +326,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		78D9A3021BC4E089009F814D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78F8BEC01BD9E8AD00560196 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -292,6 +368,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		78F8BEBE1BD9E8AD00560196 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78F8BEC51BD9E8AD00560196 /* KeyboardViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -304,6 +388,11 @@
 			isa = PBXTargetDependency;
 			target = 78D9A2DF1BC4E089009F814D /* 代购计算器 */;
 			targetProxy = 78D9A3051BC4E089009F814D /* PBXContainerItemProxy */;
+		};
+		78F8BEC81BD9E8AD00560196 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 78F8BEC11BD9E8AD00560196 /* 胖仔代购 */;
+			targetProxy = 78F8BEC71BD9E8AD00560196 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -413,9 +502,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = "代购计算器/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.-----";
+				PRODUCT_BUNDLE_IDENTIFIER = Yupeng;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -424,9 +515,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = "代购计算器/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.-----";
+				PRODUCT_BUNDLE_IDENTIFIER = Yupeng;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -479,6 +572,31 @@
 			};
 			name = Release;
 		};
+		78F8BECA1BD9E8AD00560196 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "胖仔代购/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Yupeng.----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		78F8BECB1BD9E8AD00560196 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "胖仔代购/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Yupeng.----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -498,6 +616,7 @@
 				78D9A30F1BC4E089009F814D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		78D9A3101BC4E089009F814D /* Build configuration list for PBXNativeTarget "代购计算器Tests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +625,7 @@
 				78D9A3121BC4E089009F814D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		78D9A3131BC4E089009F814D /* Build configuration list for PBXNativeTarget "代购计算器UITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +634,16 @@
 				78D9A3151BC4E089009F814D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78F8BECC1BD9E8AD00560196 /* Build configuration list for PBXNativeTarget "胖仔代购" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78F8BECA1BD9E8AD00560196 /* Debug */,
+				78F8BECB1BD9E8AD00560196 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

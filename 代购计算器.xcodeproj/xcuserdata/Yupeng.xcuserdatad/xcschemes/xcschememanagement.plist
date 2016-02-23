@@ -9,6 +9,11 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>胖仔代购.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
@@ -23,6 +28,11 @@
 			<true/>
 		</dict>
 		<key>78D9A3031BC4E089009F814D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>78F8BEC11BD9E8AD00560196</key>
 		<dict>
 			<key>primary</key>
 			<true/>
